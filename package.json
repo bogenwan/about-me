@@ -1,0 +1,32 @@
+{
+  "name": "about-me",
+  "version": "1.0.0",
+  "description": "my website",
+  "main": "index.js",
+  "scripts": {
+    "compile": "webpack",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bogenwan/about-me.git"
+  },
+  "author": "Johnny Kwong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bogenwan/about-me/issues"
+  },
+  "homepage": "https://github.com/bogenwan/about-me#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "express": "^4.15.4",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "webpack": "^3.6.0",
+    "webpack-dev-middleware": "^1.12.0"
+  }
+}
