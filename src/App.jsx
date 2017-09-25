@@ -18,8 +18,8 @@ class App extends React.Component {
     return (
       <div>
         {this.state.firstName}
-        // <img src={this.state.laptop1} alt="Lap top" />
-        // <img src={this.state.mypic} alt="Pic of me" />
+        <img src={this.state.laptop1} alt="Lap top" />
+        <img src={this.state.mypic} alt="Pic of me" />
       </div>
     )
   };

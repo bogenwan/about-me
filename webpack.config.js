@@ -1,9 +1,10 @@
 const path = require('path');
+const webpack = require('webpack');
 
 module.exports = {
   context: path.join(__dirname, 'src'),
   entry: [
-    './main.jsx',
+    './main.jsx', 'webpack-hot-middleware/client',
   ],
   output: {
     path: path.join(__dirname, 'www'),
@@ -25,4 +26,11 @@ module.exports = {
       path.join(__dirname, 'node_modules'),
     ],
   },
+  plugins: [
+    // OccurenceOrderPlugin is needed for webpack 1.x only
+    new webpack.optimize.OccurrenceOrderPlugin(),
+    new webpack.HotModuleReplacementPlugin(),
+    // Use NoErrorsPlugin for webpack 1.x
+    new webpack.NoEmitOnErrorsPlugin()
+  ],
 };

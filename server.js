@@ -1,5 +1,6 @@
 const express = require('express');
 const webpackDevMiddleware = require('webpack-dev-middleware');
+const webpackHotMiddleware = require('webpack-hot-middleware');
 const webpack = require('webpack');
 const webpackConfig = require('./webpack.config.js');
 const app = express();
@@ -17,6 +18,8 @@ app.use(webpackDevMiddleware(compiler, {
   },
   historyApiFallback: true,
 }));
+
+app.use(webpackHotMiddleware(compiler));
 
 const server = app.listen(3000, function() {
   const host = server.address().address;
