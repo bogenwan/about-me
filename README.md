@@ -44,7 +44,7 @@ npm install
 1. Start development server with this command:
 
 ```
-npm start
+npm run start
 ```
 
 1. Once development server is running you can open this at in browser, [Click here](http://localhost:3000/).
