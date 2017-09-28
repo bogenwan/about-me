@@ -1,8 +1,8 @@
 import React from 'react';
 
 class AboutMe extends React.Component {
-  constructor(prop) {
-    super(prop);
+  constructor(props) {
+    super(props);
 
     this.state = {
       text: 'My name is Johnny Kwong, I\'m a software engineer'

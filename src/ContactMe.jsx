@@ -5,7 +5,7 @@ class ContactMe extends React.Component {
     super(props);
 
     this.state = {
-      phone: '('925')'876'-'1331
+      phone: '(' + 925 + ')' + 876 + '-' + 1331
     };
   };
 
