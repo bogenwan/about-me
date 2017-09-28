@@ -4,7 +4,7 @@ const webpack = require('webpack');
 module.exports = {
   context: path.join(__dirname, 'src'),
   entry: [
-    './main.jsx', 'webpack-hot-middleware/client',
+    './index.jsx', 'webpack-hot-middleware/client',
   ],
   output: {
     path: path.join(__dirname, 'www'),

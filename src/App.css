@@ -1,4 +1,12 @@
+body {
+  box-sizing: content-box;
+}
+
 .nav {
   list-style-type: none;
 }
 
+.nav li {
+  display: inline;
+  margin: 20px;
+}
