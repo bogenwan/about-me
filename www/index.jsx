@@ -8,7 +8,7 @@ import Home from '../src/Home.jsx';
 import AboutMe from '../src/AboutMe.jsx';
 import ShowCase from '../src/ShowCase.jsx';
 import ContactMe from '../src/ContactMe.jsx';
-import reducers from './reducers';
+import reducers from '../src/reducers';
 
 const App = (props) => (
       <div className="authed-app-layout">
