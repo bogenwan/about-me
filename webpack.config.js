@@ -40,9 +40,10 @@ module.exports = {
       path.join(__dirname, 'node_modules'),
     ],
   },
+  devtool: 'inline-source-map',
   plugins: [
-    // OccurenceOrderPlugin is needed for webpack 1.x only
-    new webpack.optimize.OccurrenceOrderPlugin(),
+    // // OccurenceOrderPlugin is needed for webpack 1.x only
+    // new webpack.optimize.OccurrenceOrderPlugin(),
     new webpack.HotModuleReplacementPlugin(),
     // Use NoErrorsPlugin for webpack 1.x
     new webpack.NoEmitOnErrorsPlugin()

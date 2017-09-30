@@ -5,7 +5,8 @@ class AboutMe extends React.Component {
     super(props);
 
     this.state = {
-      text: 'My name is Johnny Kwong, I\'m a software engineer'
+      text: 'My name is Johnny Kwong, I\'m a software engineer',
+      touchedAboutMeReducer: true,
     };
   };
 
