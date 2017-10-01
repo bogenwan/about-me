@@ -7,12 +7,6 @@ import { touchedHomeCounter } from './actions/homeActions'
 class Home extends React.Component {
   constructor (props) {
     super(props);
-
-    // this.state = {
-    //   firstName: 'Johnny',
-    //   lastName: 'Kwong',
-    //   touchedHomeReducer: this.props.touchedHome,
-    // };
   };
 
   render () {
