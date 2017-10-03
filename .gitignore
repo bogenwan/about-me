@@ -60,3 +60,5 @@ typings/
 # Webpack bundles
 www/bundle.js
 
+# DS Store
+.DS_Store
